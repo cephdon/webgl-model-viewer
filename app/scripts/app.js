@@ -11,6 +11,6 @@ define(['jquery', 'model-viewer', 'model-downloader', 'model-loader'], function(
     var stage = $('.model-viewer .stage');
     ModelViewer.init(stage.get(0));
 
-    modelLoader.get('models/epia.zip');
+    modelLoader.get('models/board.dae.zip');
 
 });
